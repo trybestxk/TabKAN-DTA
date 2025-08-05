@@ -5,8 +5,8 @@
 ## Overview
 
 TabKAN-DTA is a novel multimodal deep learning framework for drug-target binding affinity prediction that integrates heterogeneous graph neural networks with tabular neural features through an interpretable Kolmogorov-Arnold gating mechanism. Our approach effectively combines structural, sequence, and tabular modalities while providing insights into their relative contributions to predictions.
+![TabKAN-DTA Model Architecture](https://raw.githubusercontent.com/trybestxk/TabKAN-DTA/main/tabKANmodel.png)
 
-![tabKANmodel](C:\Users\kyx\Desktop\tabKANmodel.png)
 
 ## Key Features
 
@@ -141,4 +141,5 @@ TabKAN-DTA/
 ```
 python test.py
 ```
+
 
