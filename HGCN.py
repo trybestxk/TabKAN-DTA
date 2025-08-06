@@ -1,7 +1,3 @@
-# @Version : 3.7
-# @Author : 孔渝翔
-# @Time  ：2024/11/4 21:07
-# @FName  :model.py
 import dgl
 import dgl.nn.pytorch as dglnn
 import torch.nn
@@ -119,4 +115,5 @@ class HGCNDTA(Module):
         x3 = self.fc03(x3)
 
         # 返回药物特征、蛋白质特征和预测值
+
         return ligand_feat, residue_feat, x3
