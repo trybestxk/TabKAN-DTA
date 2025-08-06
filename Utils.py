@@ -1,7 +1,3 @@
-# @Version : 3.7
-# @Author : 孔渝翔
-# @Time  ：2024/10/25 9:14
-# @FName  :Utils.py
 import os
 
 import torch
@@ -284,5 +280,6 @@ def auc(y_true,y_pred):
     y_pred_bi=(y_pred>threshold).astype(int)
     auc=roc_auc_score(y_true_bi,y_pred_bi)
     return auc
+
 
 
